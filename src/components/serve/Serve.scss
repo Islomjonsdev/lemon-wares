@@ -1,0 +1,54 @@
+.serve {
+    margin-bottom: 125px;
+}
+
+.serve__container {
+   display: flex;
+   gap: 259px;
+}
+
+.serve__left {
+    max-width: 445px;
+    width: 100%;
+}
+
+.serve__left__heading {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 8px;
+}
+
+.serve__left__text {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.serve__right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serve__right__item {
+   
+}
+
+.serve__right__link {
+    
+}
+
+.serve__right__img {
+    width: 120px;
+    height: 120px;
+    margin-right: 65px;
+}

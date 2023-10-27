@@ -1,0 +1,197 @@
+.real__store {
+    margin-bottom: 105px;
+}
+
+.container {
+}
+
+.real__store__container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.real__store__left {
+    max-width: 445px;
+    width: 100%;
+}
+
+
+.real__store__left__span {
+    position: absolute;
+}
+
+.real__store__left__span::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 143px;
+    height: 120px;
+    background-image: url(../../assets/images/qavs.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    left: -100px;
+    top: -50px;
+}
+
+.real__store__left__heading {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.real__store__left__text {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.real__store__left__list {
+    padding-left: 100px;
+}
+
+.real__store__left__item {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 8px;
+    background: var(--default-white, #FFF);
+    box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+    padding: 7px 32px 96px 64px;
+    transition: 0.3s ease;
+}
+
+.real__store__left__item:hover {
+    transform: scale(01.03);
+}
+
+.real__store__left__img {
+    width: 120px;
+    height: 120px;
+}
+
+.real__store__left__text {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.real__store__left__span1 {
+    color: var( --text-gray-900-color, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.real__store__left__text1 {
+    color: var(--text-gray-700-color, #969BAB);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.real__store__right__list {
+    padding-top: 50px;
+}
+
+.real__store__right__item {
+    max-width: 445px;
+    width: 100%;
+    padding: 39px 32px 14px 64px;
+    border-radius: 8px;
+    background: var(--default-white, #FFF);
+    box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+    margin-bottom: 32px;
+    transition: 0.3s ease;
+}
+
+.real__store__right__item:hover {
+    transform: scale(01.03);
+}
+
+.real__store__right__img {
+    width: 78px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.real__store__right__text {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.real__store__right__span {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.real__store__right__name {
+    color: var(--text-gray-700, #969BAB);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.real__store__right__item1 {
+    max-width: 350px;
+    width: 100%;
+    padding: 41px 32px 32px 64px;
+    border-radius: 8px;
+    background: var(--default-white, #FFF);
+    box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+    transition: 0.3s ease;
+}
+
+.real__store__right__item1:hover {
+    transform: scale(01.03);
+}
+
+.real__store__right__text1 {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.real__store__right__span1 {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.real__store__right__name1 {
+    color: var(--text-gray-700, #969BAB);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}

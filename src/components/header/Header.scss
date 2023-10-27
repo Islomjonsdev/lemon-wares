@@ -1,0 +1,601 @@
+.header {
+    padding-top: 41px;
+    padding-bottom: 65px;
+}
+
+.container {
+    max-width: 1324px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__container__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+
+.header__container__logo {
+    width: 102px;
+    height: 57px;
+}
+
+.header__container__link__left {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__container__link__left::after {
+    content: "";
+    display: inline-block;
+    width: 76px;
+    height: 2px;
+    border-radius: 10px;
+    background: #B00000;
+    margin-top: 4px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header__item {
+    
+}
+
+.header__item__link {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header__bottom {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__bottom__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom__account {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__bottom__account::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 22px;
+    background: #DAD8D8;
+    margin-left: 31px;
+}
+
+.header__bottom__wrapper1 {
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom__phone__logo {
+    width: 21px;
+    height: 23px;
+}
+
+.header__bottom__phone__number {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.header__hamburger__btn {
+    display: none;
+}
+
+@media only screen and (max-width: 970px) {
+    .header {
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__container__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .header__container__logo {
+        width: 95px;
+        height: 53px;
+    }
+    
+    .header__container__link__left {
+        text-decoration: none;
+        color: #000;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: block;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .header__container__link__left::after {
+        content: "";
+        display: inline-block;
+        width: 76px;
+        height: 2px;
+        border-radius: 10px;
+        background: #B00000;
+        margin-top: 4px;
+    }
+    
+    .header__list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .header__item {
+        
+    }
+    
+    .header__item__link {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+    .header__bottom {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+    }
+    
+    .header__bottom__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__account {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .header__bottom__account::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 20px;
+        background: #DAD8D8;
+        margin-left: 31px;
+    }
+    
+    .header__bottom__wrapper1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__phone__logo {
+        width: 19px;
+        height: 21px;
+    }
+    
+    .header__bottom__phone__number {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .header {
+        padding-top: 30px;
+        padding-bottom: 55px;
+    }
+    
+    .header__container__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .header__container__logo {
+        width: 85px;
+        height: 43px;
+    }
+    
+    .header__container__link__left {
+        font-size: 11px;
+        display: block;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .header__container__link__left::after {
+        content: "";
+        display: inline-block;
+        width: 76px;
+        height: 2px;
+        border-radius: 10px;
+        background: #B00000;
+        margin-top: 4px;
+    }
+    
+    .header__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header__item {
+        
+    }
+    
+    .header__item__link {
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+    .header__bottom {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header__bottom__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__account {
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .header__bottom__account::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 20px;
+        background: #DAD8D8;
+        margin-left: 31px;
+    }
+    
+    .header__bottom__wrapper1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__phone__logo {
+        width: 15px;
+        height: 17px;
+    }
+    
+    .header__bottom__phone__number {
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .header {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    
+    .header__container__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .header__container__logo {
+        width: 80px;
+        height: 38px;
+    }
+    
+    .header__container__link__left {
+        font-size: 10px;
+        display: block;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .header__container__link__left::after {
+        content: "";
+        display: inline-block;
+        width: 65px;
+        height: 2px;
+        border-radius: 10px;
+        background: #B00000;
+        margin-top: 4px;
+    }
+    
+    .header__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header__item {
+        
+    }
+    
+    .header__item__link {
+        color: #000;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+    .header__bottom {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .header__bottom__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__account {
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .header__bottom__account::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 15px;
+        background: #DAD8D8;
+        margin-left: 31px;
+    }
+    
+    .header__bottom__wrapper1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__phone__logo {
+        width: 13px;
+        height: 15px;
+    }
+    
+    .header__bottom__phone__number {
+        color: #000;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .header__container__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header__container__logo {
+        width: 80px;
+        height: 38px;
+    }
+    
+    .header__container__link__left {
+        font-size: 10px;
+        display: block;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .header__container__link__left::after {
+        content: "";
+        display: inline-block;
+        width: 65px;
+        height: 2px;
+        border-radius: 10px;
+        background: #B00000;
+        margin-top: 4px;
+    }
+    
+    .header__list {
+        display: none;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header__item {
+        
+    }
+    
+    .header__item__link {
+        color: #000;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+    .header__bottom {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .header__bottom__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__bottom__account {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        display: none;
+    }
+    
+    .header__bottom__account::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 10px;
+        background: #DAD8D8;
+        margin-left: 31px;
+    }
+    
+    .header__bottom__wrapper1 {
+        display: none;
+        align-items: center;
+    }
+    
+    .header__bottom__phone__logo {
+        width: 13px;
+        height: 15px;
+    }
+    
+    .header__bottom__phone__number {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    } 
+
+    .header__hamburger__btn {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .header__hamburger__icon {
+        width: 20px;
+        height: 20px;
+    }
+}
